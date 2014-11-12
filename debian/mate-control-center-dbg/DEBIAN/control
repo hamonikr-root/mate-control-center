@@ -1,0 +1,14 @@
+Package: mate-control-center-dbg
+Source: mate-control-center
+Version: 1.8.1-0+hamonica
+Architecture: amd64
+Maintainer: MATE Packaging Team <pkg-mate-team@lists.alioth.debian.org>
+Installed-Size: 1536
+Depends: mate-control-center (= 1.8.1-0+hamonica)
+Section: debug
+Priority: extra
+Homepage: http://www.mate-desktop.org/
+Description: utilities to configure the MATE desktop (debugging symbols)
+ This package contains debugging symbols for mate-control-center.
+ It is provided to help debugging problems. The debugging symbols are
+ installed  in /usr/lib/debug and will automatically be used by gdb.

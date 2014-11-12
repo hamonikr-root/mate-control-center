@@ -1,0 +1,19 @@
+Package: mate-control-center
+Version: 1.8.1-0+hamonica
+Architecture: amd64
+Maintainer: MATE Packaging Team <pkg-mate-team@lists.alioth.debian.org>
+Installed-Size: 8461
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libcanberra-gtk0 (>= 0.2), libcanberra0 (>= 0.2), libdbus-glib-1-2 (>= 0.78), libdconf1 (>= 0.14.0), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libmarco-private0, libmate-desktop-2-17, libmate-menu2, libmatekbd4 (>= 1.6.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.14.4), libunique-1.0-0 (>= 1.0.0), libx11-6, libxcursor1 (>> 1.1.2), libxft2 (>> 2.1.1), libxi6 (>= 2:1.2.0), libxklavier16 (>= 5.0), libxml2 (>= 2.7.4), libxss1, dconf-gsettings-backend | gsettings-backend, mate-settings-daemon, mate-menus, mate-desktop, mate-icon-theme, desktop-file-utils, gsettings-desktop-schemas, libglib2.0-bin
+Suggests: gconf2
+Conflicts: libslab0, libslab0a
+Section: mate
+Priority: optional
+Homepage: http://www.mate-desktop.org/
+Description: utilities to configure the MATE desktop
+ This package contains configuration applets for the MATE desktop,
+ allowing to set accessibility configuration, desktop fonts, keyboard
+ and mouse properties, sound setup, desktop theme and background, user
+ interface properties, screen resolution, and other MATE parameters.
+ .
+ It also contains a front end to these applets, which can also be
+ accessed with the MATE panel or the Caja file manager.

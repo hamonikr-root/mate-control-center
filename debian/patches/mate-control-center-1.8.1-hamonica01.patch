@@ -1,0 +1,66 @@
+diff -Npur mate-control-center-1.8.1.orig/po/ko.po mate-control-center-1.8.1/po/ko.po
+--- mate-control-center-1.8.1.orig/po/ko.po	2014-03-06 05:55:21.000000000 +0900
++++ mate-control-center-1.8.1/po/ko.po	2014-09-26 11:15:19.481144546 +0900
+@@ -26,7 +26,7 @@ msgstr ""
+ msgid ""
+ "[ 'Change Theme;mate-appearance-properties.desktop', 'Set Preferred "
+ "Applications;mate-default-applications-properties.desktop' ]"
+-msgstr "[ 'Change Theme;mate-appearance-properties.desktop', 'Set Preferred Applications;mate-default-applications-properties.desktop' ]"
++msgstr "[ '테마 변경;mate-appearance-properties.desktop', '자주 쓰는 프로그램 설정;mate-default-applications-properties.desktop' ]"
+ 
+ #: ../org.mate.control-center.gschema.xml.in.in.h:2
+ msgid "Task names and associated .desktop files"
+diff -Npur mate-control-center-1.8.1.orig/shell/matecc.menu mate-control-center-1.8.1/shell/matecc.menu
+--- mate-control-center-1.8.1.orig/shell/matecc.menu	2014-03-06 05:55:21.000000000 +0900
++++ mate-control-center-1.8.1/shell/matecc.menu	2014-09-29 18:17:27.756629196 +0900
+@@ -14,10 +14,10 @@
+ 
+    <!-- Sort the control center categories -->
+    <Layout>
+-     <Menuname>Personal</Menuname>
+-     <Menuname>Internet and Network</Menuname>
+-     <Menuname>Hardware</Menuname>
+-     <Menuname>System</Menuname>
++     <Menuname>개인</Menuname>
++     <Menuname>인터넷과 네트워크</Menuname>
++     <Menuname>하드웨어</Menuname>
++     <Menuname>시스템</Menuname>
+      <Merge type="all" />
+    </Layout>
+ 
+@@ -45,7 +45,7 @@
+ 
+   <!-- Personal category -->
+   <Menu>
+-    <Name>Personal</Name>
++    <Name>개인</Name>
+     <Directory>Personal.directory</Directory>
+     <Include>
+       <And>
+@@ -61,7 +61,7 @@
+ 
+   <!-- Internet and Network category -->
+   <Menu>
+-    <Name>Internet and Network</Name>
++    <Name>인터넷과 네트워크</Name>
+     <Directory>InternetAndNetwork.directory</Directory>
+     <Include>
+       <And>
+@@ -73,7 +73,7 @@
+   
+   <!-- Hardware category -->
+   <Menu>
+-    <Name>Hardware</Name>
++    <Name>하드웨어</Name>
+     <Directory>Hardware.directory</Directory>
+     <Include>
+       <And>
+@@ -85,7 +85,7 @@
+ 
+   <!-- System category -->
+   <Menu>
+-    <Name>System</Name>
++    <Name>시스템</Name>
+     <Directory>System.directory</Directory>
+     <Include>
+       <And>
